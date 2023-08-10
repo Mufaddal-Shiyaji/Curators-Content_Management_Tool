@@ -40,8 +40,7 @@ const ForgotPasswordScreen = () => {
           <div className="top-forgotpassword-explain">
             <h3 >Forgot Password</h3>
             <p >
-              Please enter the email address you register your account with. We
-              will send you reset password confirmation to this email
+              Kindly provide the email address associated with your account registration. A confirmation for resetting your password will be sent to this email address.
             </p>
           </div>
 
@@ -63,7 +62,7 @@ const ForgotPasswordScreen = () => {
 
           </div>
 
-          <button type="submit">
+          <button type="submit" style={{backgroundColor:"#FFAC1C"}}>
             Send Email
           </button>
 

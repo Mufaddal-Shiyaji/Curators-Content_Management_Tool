@@ -82,7 +82,7 @@ const LoginScreen = () => {
                 required
                 id="password"
                 autoComplete="true"
-                placeholder="6+ strong character"
+                placeholder="8+ strong character"
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
                 tabIndex={2}
@@ -94,7 +94,7 @@ const LoginScreen = () => {
             </div>
             <Link to="/forgotpassword" className="login-screen__forgotpassword"> Forgot Password ?
             </Link>
-            <button type="submit" >
+            <button type="submit" style={{backgroundColor:"#FFAC1C"}}>
               Login
             </button>
 
@@ -105,7 +105,7 @@ const LoginScreen = () => {
 
         <div className="login-banner-section ">
 
-          <img src="login.png" alt="banner" width="400px" />
+          <img src="login.png" alt="banner" width="470px" />
         </div>
 
       </div>

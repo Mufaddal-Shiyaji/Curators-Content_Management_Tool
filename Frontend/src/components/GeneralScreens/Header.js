@@ -38,7 +38,7 @@ const Header = () => {
 
                 <Link to="/" className="logo">
                     <h5>
-                        MERN BLOG
+                        CURATORS
 
                     </h5>
                 </Link>
@@ -49,7 +49,7 @@ const Header = () => {
                         <div className="auth_options">
 
 
-                            <Link className='addStory-link' to="/addstory"><RiPencilFill /> Add Story </Link>
+                            <Link className='addStory-link' to="/addstory"><RiPencilFill /> Create </Link>
 
 
                             <Link to="/readList" className='readList-link'>
@@ -85,7 +85,7 @@ const Header = () => {
                         :
                         <div className="noAuth_options">
 
-                            <Link className='login-link' to="/login"> Login </Link>
+                            <Link  to="/login"> Login </Link>
 
                             <Link className='register-link' to="/register"> Get Started</Link>
                         </div>

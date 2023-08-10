@@ -57,7 +57,7 @@ const RegisterScreen = () => {
 
         <div className="register-banner-section ">
 
-          <img src="register.png" alt="banner" width="490px" />
+          <img src="singup.png" alt="banner" width="500px" />
         </div>
 
         <div className="section-wrapper">
@@ -68,10 +68,10 @@ const RegisterScreen = () => {
           </div>
 
           <div className="top-register-explain">
-            <h2>Welcome to MERN Blog </h2>
+            <h2>Welcome to CURATORS  </h2>
 
             <p>
-              It's easy and free to post your thinking on any topic and connect with thounsands of readers.
+            Craft, Edit, Publish: Your Complete Content Solution
 
             </p>
 
@@ -86,7 +86,7 @@ const RegisterScreen = () => {
                 type="text"
                 required
                 id="name"
-                placeholder="Enter username"
+                placeholder="Enter Username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />
@@ -114,7 +114,7 @@ const RegisterScreen = () => {
                 required
                 id="password"
                 autoComplete="true"
-                placeholder="6+ strong character"
+                placeholder="8+ strong character"
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
                 tabIndex={2}
@@ -131,14 +131,14 @@ const RegisterScreen = () => {
                 required
                 id="confirmpassword"
                 autoComplete="true"
-                placeholder="Confirm password"
+                placeholder="Enter Password"
                 value={confirmpassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
               />
               <label htmlFor="confirmpassword">Confirm Password</label>
             </div>
 
-            <button type="submit" >
+            <button type="submit" style={{backgroundColor: "#FFAC1C"}}>
               Register
             </button>
 

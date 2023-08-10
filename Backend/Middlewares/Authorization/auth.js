@@ -6,9 +6,8 @@ const { isTokenIncluded ,getAccessTokenFromHeader} = require("../../Helpers/auth
 
 
 const getAccessToRoute = asyncErrorWrapper(async(req,res,next) =>{
-
-    const {JWT_SECRET_KEY} =process.env ;
-
+    const JWT_SECRET_KEY  = "XaKb4DtX4FCO8AcCRwUuKJ5EDckpR7eN"
+    const JWT_EXPIRE = "60m"
     if(!isTokenIncluded(req)) {
 
         return next(new CustomError("You are not authorized to access this route ", 401))

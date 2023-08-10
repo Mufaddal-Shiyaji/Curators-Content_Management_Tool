@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab:wght@800&display=swap&family=Roboto+Slab:wght@800&family=Saira+Condensed:wght@500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Sora:wght@600&display=swap');
 
 header {
     width: 100%;
@@ -20,8 +20,7 @@ header .averager {
 header .logo {
     text-decoration: none;
     color: black;
-    font-family: 'Staatliches', cursive;
-    color: #0063a5;
+    color: #4682B4;
 }
 
 header .logo h5 {
@@ -47,8 +46,8 @@ header .logo h5 {
 }
 
 .addStory-link {
-    color: #0063a5 !important;
-    border: #0063a5 solid 2px;
+    color: #6082B6 !important;
+    border: #4682B4 solid 2px;
     padding: 4px 10px !important;
     margin-right: 2rem;
     border-radius: 4px;
@@ -56,9 +55,9 @@ header .logo h5 {
 }
 
 .register-link {
-    border: #0063a5 solid 2px;
+    border: #6082B6 solid 2px;
     border-radius: 4px;
-    color: #0063a5 !important;
+    color: #6082B6 !important;
 }
 
 .search-form {
@@ -101,7 +100,7 @@ header .logo h5 {
 }
 
 .search-form button.searchBtn {
-    color: #0063a5 !important;
+    color: #6082B6 !important;
 }
 
 .search-form button i {
@@ -155,7 +154,7 @@ header .logo h5 {
     text-decoration: none;
     font-family: 'Saira Condensed', sans-serif;
     font-size: 1.2rem;
-    color: #0063a5;
+    color: #6082B6;
     font-weight: 500;
 }
 
@@ -171,7 +170,7 @@ header .logo h5 {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
-    color: rgb(161, 2, 2);
+    color: #FFAC1C;
 }
 
 .sub-profile-wrap button.logout-btn svg {
@@ -183,18 +182,18 @@ header .logo h5 {
     color: black;
     font-size: 2rem;
     margin-right: 1.8rem;
-    color: #024d80;
+    color: #6082B6;
     position: relative;
 }
 
 .readList-link:hover {
-    color: #024d80;
+    color: #6082B6;
 }
 
 #readListLength {
     position: absolute;
-    background-color: #0063a5;
-    box-shadow: 0 0 4px 1px #0063a5;
+    background-color: #6082B6;
+    box-shadow: 0 0 4px 1px #6082B6;
     text-decoration: none;
     top: 3px;
     right: -12px;

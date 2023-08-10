@@ -2,8 +2,9 @@ import React from "react";
 
 const NoStories = () => (
   <div className="no-story">
-    <h2>No Story Found</h2>
-    <p>Please try a different search term</p>
+    <h2>Content Not Present!
+</h2>
+    <p>Consider trying a different keyword for your search.</p>
   </div>
 );
 

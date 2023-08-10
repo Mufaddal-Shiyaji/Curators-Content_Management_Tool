@@ -92,7 +92,7 @@ const AddStory = () => {
                     <AiOutlineUpload />
                     <div class="txt">
                         {image ? image.name :
-                            " Include a high-quality image in your story to make it more inviting to readers."
+                            " Incorporate a top-notch image into your narrative to enhance its appeal to readers."
                         }
                     </div>
                     <input

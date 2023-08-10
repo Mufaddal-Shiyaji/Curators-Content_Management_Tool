@@ -2,9 +2,7 @@ const CustomError = require("../../Helpers/error/CustomError")
 
 const customErrorHandler = (err,req,res,next)=> {
    
-    if (err.code == 11000) {
-        err = new CustomError("Duplicate Field Value Enter " , 404)
-    }
+
 
     if (err.name === 'SyntaxError') {
 

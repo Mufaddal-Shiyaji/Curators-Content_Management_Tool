@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Sora:wght@600&display=swap');
 .Inclusive-addStory-page {
     width: 1000px;
     margin: 1.2rem auto;
@@ -24,11 +24,11 @@
     height: 55px;
     outline: 0;
     border: none;
-    border: rgb(235, 235, 235) solid 1px;
+    border: #6082B6 solid 1px;
     font-size: 1.4rem;
     padding-left: 1rem;
     font-weight: 450;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
     border-bottom: none;
 }
 
@@ -50,13 +50,13 @@
 }
 
 .ck-editor__top {
-    border: rgb(235, 235, 235) solid 1px !important;
+    border: #6082B6 solid 2px !important;
     border-bottom: none !important;
     padding: 0.6rem 1rem !important;
 }
 
 .ck-content {
-    border: rgb(235, 235, 235) solid 1px !important;
+    border: #6082B6 solid 2px !important;
 }
 
 .ck-toolbar__items,
@@ -74,7 +74,7 @@
 }
 
 .StoryImageField {
-    border: rgb(235, 235, 235) solid 1px;
+    border: #FFAC1C solid 2px;
     width: 100%;
     height: 240px;
     border-radius: 3px;
@@ -98,6 +98,7 @@
     margin-top: 14px;
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
+    border-color: #FFAC1C;
 }
 
 .StoryImageField [type="file"] {
@@ -110,7 +111,7 @@
 
 .addStory-btn {
     width: 100%;
-    background-color: #0063a5;
+    background-color: #FFAC1C;
     padding: 0.7rem;
     color: white;
     margin-top: 1.9rem;
@@ -121,9 +122,9 @@
 
 .dis-btn {
     width: 100%;
-    background-color: #0063a5;
+    background-color: #FFAC1C;
     padding: 0.7rem;
-    color: white;
+    color: #FFAC1C;
     margin-top: 1.9rem;
     border: none;
     border-radius: 6px;
